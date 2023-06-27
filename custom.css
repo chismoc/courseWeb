@@ -121,3 +121,29 @@ body{
 .navbar .navbar-link:hover {
   color: #ffffff;
 }
+
+/*home*/
+#home{
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+}
+
+#home h1{
+  margin-bottom: 30px;
+}
+#home h2{
+  margin-bottom: 50px;
+}
+
+#home .btn{
+  background-color: rgb(29, 167,179);
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+#home .btn:hover{
+  background-color: rgb(29, 167,179,0.5);
+}
