@@ -166,3 +166,22 @@ padding-top: 100px;
 .aboutImages{
   height: 120px;
 }
+#promise{
+  padding-top: 100px;
+}
+#carouselCaptions{
+  width: 60%;
+  margin: 0 auto;
+  
+}
+.carousel-inner .carousel-item img{
+  height: 400px;
+  margin: 0 auto;
+}
+.carousel-caption{
+  position: relative;
+  left: auto;
+  right: auto;
+  height: 200px;
+  margin-top: 10px;
+}
