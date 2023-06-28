@@ -1,5 +1,6 @@
 body{
   font-family: 'Volkhov', serif;
+  position: relative;
 }
 #navideo{
   position: fixed;
@@ -10,6 +11,8 @@ body{
 .nav-item {
   margin-right: 20px;
 }
+
+
 
 .navbar{
   font-size: 18px;
@@ -92,6 +95,9 @@ body{
 .navbar .navbar-nav > .dropdown > a .caret {
   border-top-color: #c0c0c0;
   border-bottom-color: #c0c0c0;
+}
+.carousel-caption{
+  margin-top: 20px;
 }
 @media (max-width: 767) {
   .navbar .navbar-nav .open .dropdown-menu > li > a {
@@ -183,5 +189,53 @@ padding-top: 100px;
   left: auto;
   right: auto;
   height: 200px;
-  margin-top: 10px;
+ 
+}
+/* style footer*/
+.footer{
+  background-color: rgba(0,0,0,0.5);
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
+
+/*media queries to chnage icons size in small devices*/
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item img{
+    height: 300px;
+   
+  }
+  .carousel-inner h2{
+    font-size: 23px;   
+}
+  
+}
+
+@media (max-width: 576px) {
+  .carousel-inner .carousel-item img{
+    height: 200px;
+   
+  }
+  .carousel-inner h2{
+    font-size: 17px;   
+}
+  #nav-brand{
+    font-size: 14px;
+  }
+  #arrow{
+ margin-top: -150px;
+ color: black;
+  }
+} 
+/*Video does not work in small devices:
+-Hide the video and set picture as background (use media queries)
+-make it spread accross the whole webpage*/
+@media (max-width:768px){
+  body{
+      background: url(images/nature.jpg) center center fixed;
+      background-size: cover;
+  }
+  #navideo{
+      display: none;   
+  }
 }
